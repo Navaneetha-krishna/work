@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Tour</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        .tour-step {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .tour-step h3 {
+            color: #555;
+        }
+        .tour-step p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Website Tour</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Introduction</h2>
+        <p>This is a simple tour of the website to guide you through the various sections.</p>
+    </section>
+
+    <section>
+        <h2>Tour Steps</h2>
+        <div class="tour-step">
+            <h3>Step 1: Homepage</h3>
+            <p>Here you can find the latest updates and quick links to other sections of the site.</p>
+        </div>
+
+        <div class="tour-step">
+            <h3>Step 2: About Us</h3>
+            <p>Learn more about the company and its mission, values, and history.</p>
+        </div>
+
+        <div class="tour-step">
+            <h3>Step 3: Services</h3>
+            <p>Explore the services we offer and how we can assist you with your needs.</p>
+        </div>
+
+        <div class="tour-step">
+            <h3>Step 4: Contact Us</h3>
+            <p>Get in touch with us for support, inquiries, or general questions.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p style="text-align:center; padding: 20px; background-color: #4CAF50; color: white;">Thank you for visiting our website!</p>
+</footer>
+
+</body>
+</html>
